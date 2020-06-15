@@ -17,7 +17,6 @@ public class Main {
 
         fileReader.close();
         fileWriter.close();
-        System.out.println(b);
     }
     int factorial(int x){
         if (x == 1) {
