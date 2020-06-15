@@ -11,8 +11,7 @@ public class Main {
         FileWriter fileWriter = new FileWriter("a.txt");
 
         Scanner scanner = new Scanner(fileReader);
-        int b = main.factorial(scanner.nextInt());
-        String string = Integer.toString(b);
+        String string = Integer.toString(main.factorial(scanner.nextInt()));
         fileWriter.write(string);
 
         fileReader.close();
